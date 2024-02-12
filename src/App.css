@@ -34,9 +34,35 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1.5em;
+}
+
+.card-body {
+  border: 1px solid #2d2d2d;
+  padding: 10px;
+}
+
+.card-body p {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+code {
+  background-color: #2d2d2d;
+  color: #fefefe;
+  text-shadow: rgba(255, 255, 255, 0.15);
+  border: none;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+ul li {
+  margin: 20px;
 }
